@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #222;
+  background-image: linear-gradient(black,white);
+  background-size: cover;
+  font-size: 120%;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.containe{
+  padding: 2rem;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  height: 300px;
+  min-width: 30%;
+}
+.tempdis {
+  color: #000;
+  height: 90%;
+}
+.weatherform {
+  padding: 0.8rem;
+  border-radius: 10px;
+
+}
+.cityInput {
+  height: 5vh;
+  border: 2px solid red;
+  font-size: 1.3rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.error{
+  color:red;
+}
